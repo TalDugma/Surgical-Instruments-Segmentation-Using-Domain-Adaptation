@@ -5,6 +5,6 @@ weights:
   - final model weights drive URL
 
 files: 
-  - predict.py: Runs model predictions on an image (given an image path). Assuming the model is saved in the same parent folder as predict.py. Requires using a conda environment that contains requirements_yolo.py.
-  - video.py: Runs model predictions on a video (given a video path). Assuming the model is saved in the same parent folder as predict.py. Requires using a conda environment that contains requirements_yolo.py.
+  - predict.py: Runs model predictions on an image (given an image path). Assuming the model weights are saved in the same parent folder as predict.py. Requires using a conda environment that contains requirements_yolo.py.
+  - video.py: Runs model predictions on a video (given a video path). Assuming the model weights are saved in the same parent folder as video.py. Requires using a conda environment that contains requirements_yolo.py.
   - synthetic_data_generator.py: Generates synthetic data of tools as described in report.pdf. Configured using configurations.py. Requires using a conda environment that contains requirements_synth.py.
