@@ -21,10 +21,6 @@ pip install -r requirements_synth.txt
 Then, go to the `Synthetic` folder, and git clone BlenderProc:
 ```bash
 cd Synthetic
-git clone https://github.com/DLR-RM/BlenderProc
-cd BlenderProc
-pip install -e
-cd ..
 ```
 (You can also use pip to install it, on my VM it didn't work)
 Now, you are ready to run the synthetic data generator. You can change the configurations. 
