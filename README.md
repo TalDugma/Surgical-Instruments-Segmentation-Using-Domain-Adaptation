@@ -36,12 +36,15 @@ Now, you are ready to run the synthetic data generator. You can change the confi
    - **Requirements**: 
      - Use a conda environment with dependencies from `requirements_synth.py`.
      - Place in the same folder as BlenderProc. (I used BlenderProc git clone)
+     - HDRI files folder (not added in git repo, change in `configurations.py`)
+     - Surgical tools .obj files are only examples in the git repo (not all articulations).
    - **Usage**: Run to create synthetic data for training.
 ```bash
 python synthetic_data_generator.y
 ```
 ### 2. 'main.py', 'configuration.py':
-   - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder. 
+   - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder.
+### 3. '
 
 
 ## Run Model Predictions:
