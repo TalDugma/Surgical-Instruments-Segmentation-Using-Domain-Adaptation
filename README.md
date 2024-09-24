@@ -50,14 +50,18 @@ To create a Conda environment and install dependencies for model predictions, ru
 conda create --name visualize python=3.8 pip
 conda activate visualize
 pip install -r requirements_yolo.txt
+cd Model_Predict
 ```
+Now, you are ready to run model predictions. 
 
 ### 1. `predict.py`
    - **Purpose**: Run model predictions on a single image.
    - **Requirements**: 
-     - Place model weights in the same folder as `predict.py`.
      - Use a conda environment with dependencies from `requirements_yolo.py`.
    - **Usage**: Provide the image path to make predictions.
+```bash
+python predict.py --video_path [/path/to/image.png] --model_path [/path/to/weights.pt] --confidence [conf (float)]
+```
 
 ### 2. `video.py`
    - **Purpose**: Run model predictions on a video.
@@ -65,6 +69,9 @@ pip install -r requirements_yolo.txt
      - Place model weights in the same folder as `video.py`.
      - Use a conda environment with dependencies from `requirements_yolo.py`.
    - **Usage**: Provide the video path to make predictions.
+```bash
+python video.py --video_path [/path/to/video.mp4] --model_path [/path/to/weights.pt] --confidence [conf (float)]
+```
 
 ## Weights
 - **Final Model Weights**: [Download from Google Drive](#) (replace with actual URL)
