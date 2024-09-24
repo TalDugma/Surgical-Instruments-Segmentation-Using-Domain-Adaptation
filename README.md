@@ -60,7 +60,7 @@ Now, you are ready to run model predictions.
      - Use a conda environment with dependencies from `requirements_yolo.py`.
    - **Usage**: Provide the image path to make predictions.
 ```bash
-python predict.py --video_path [/path/to/image.png] --model_path [/path/to/weights.pt] --confidence [conf (float)]
+python predict.py --image_path [/path/to/image.png] --model_path [/path/to/weights.pt] --confidence [conf (float)]
 ```
 
 ### 2. `video.py`
