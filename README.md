@@ -40,7 +40,7 @@ Now, you are ready to run the synthetic data generator. You can change the confi
      - Surgical tools .obj files are only examples in the git repo (not all articulations).
    - **Usage**: Run to create synthetic data for training.
 ```bash
-python synthetic_data_generator.y
+python synthetic_data_generator.py
 ```
 
 ## Run Model Predictions:
