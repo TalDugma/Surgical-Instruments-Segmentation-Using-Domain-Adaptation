@@ -61,9 +61,9 @@ obj1 = bproc.loader.load_obj(args.nh)[0]
 obj1.set_cp("category_id", 1)
 obj2 = bproc.loader.load_obj(args.tw)[0]
 obj2.set_cp("category_id", 2)
-obj3 = bproc.loader.load_obj("surgical_tools_models/other/hand.obj")[0]
+obj3 = bproc.loader.load_obj("hand.obj")[0]
 obj3.set_cp("category_id", 3)
-obj4 = bproc.loader.load_obj("surgical_tools_models/other/hand.obj")[0]
+obj4 = bproc.loader.load_obj("hand.obj")[0]
 obj4.set_cp("category_id", 4)
 
 
