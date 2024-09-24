@@ -28,9 +28,7 @@ cd ..
 ```
 (You can also use pip to install it, on my VM it didn't work)
 Now, you are ready to run the synthetic data generator. You can change the configurations. 
-```bash
-python synthetic_data_generator.y
-```
+
 
 ### 1. `synthetic_data_generator.py`
    - **Purpose**: Generate synthetic tool data as the report outlines.
@@ -39,6 +37,9 @@ python synthetic_data_generator.y
      - Use a conda environment with dependencies from `requirements_synth.py`.
      - Place in the same folder as BlenderProc. (I used BlenderProc git clone)
    - **Usage**: Run to create synthetic data for training.
+```bash
+python synthetic_data_generator.y
+```
 ### 2. 'main.py', 'configuration.py':
    - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder. 
 
