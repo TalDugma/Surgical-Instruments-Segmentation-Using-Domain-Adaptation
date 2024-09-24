@@ -9,10 +9,10 @@ This repository provides the **model weights**, **code**, and **final report** f
 ## Run Model Predictions:
 To create a Conda environment and install dependencies, run:
 
-```bash
+`` ```bash ``
 conda create --name visualize python=3.8 pip
 conda activate visualize
-pip install -r requirements_yolo.txt```
+pip install -r requirements_yolo.txt`` ``` ``
 
 ### 1. `predict.py`
    - **Purpose**: Run model predictions on a single image.
