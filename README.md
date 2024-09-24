@@ -42,10 +42,6 @@ Now, you are ready to run the synthetic data generator. You can change the confi
 ```bash
 python synthetic_data_generator.y
 ```
-### 2. 'main.py', 'configuration.py':
-   - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder.
-### 3. '
-
 
 ## Run Model Predictions:
 To create a Conda environment and install dependencies for model predictions, run the following:
