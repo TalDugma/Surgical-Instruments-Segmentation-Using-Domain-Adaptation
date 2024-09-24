@@ -5,8 +5,8 @@ This repository provides the **model weights**, **code**, and **final report** f
 ## Repository Usage:
 First, clone and go to the repository:
 ```bash
-git clone repo
-cd repo
+git clone https://github.com/TalDugma/Surgical-Instruments-Segmentation-Using-Domain-Adaptation
+cd Surgical-Instruments-Segmentation-Using-Domain-Adaptation
 ```
 Then, you can try out the synthetic data generator, and model predictions over images or videos.
 
