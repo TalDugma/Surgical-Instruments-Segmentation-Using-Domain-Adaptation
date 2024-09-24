@@ -46,6 +46,7 @@ for i in tqdm(range(DG["num_scenes"])):
     "--tw", os.path.abspath(tweezers_object),
     "--num_images", f"{DG['num_images_per_scene']}",
     "--image_dataset_folder_name", f"{DG['image_dataset_folder_name']}"  # Updated key
+    "--haven_path", f"{DG['haven_path']}"
 ]
     
     if not motion_blur:
