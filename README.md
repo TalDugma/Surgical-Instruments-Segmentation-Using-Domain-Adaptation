@@ -1,6 +1,6 @@
 # Surgical Instruments Segmentation Using Domain Adaptation
 
-This repository provides the **model weights**, **code**, and **final report** for the semantic segmentation of surgical instruments. The project uses synthetic data and a domain adaptation approach inspired by Google's **Noisy Student** self-training method.
+This repository provides the **model weights**, **code**, and **final report** for the semantic segmentation of surgical instruments. The project uses synthetic data and a domain adaptation approach inspired by Google's **Noisy Student** self-training method, to provide YOLO semantic segmentation for tools in the operating room.
 
 ## Repository Usage:
 First, clone and go to the repository:
