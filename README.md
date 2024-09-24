@@ -14,7 +14,7 @@ Then, you can try out the synthetic data generator, and model predictions over i
 To create a Conda environment and install dependencies for synthetic data generation, run the following:
 
 ```bash 
-conda create --name synth python=3.8 pip
+conda create --name synth python=3.10 pip
 conda activate synth
 pip install -r requirements_synth.txt
 ```
