@@ -2,12 +2,47 @@
 
 This repository provides the **model weights**, **code**, and **final report** for the semantic segmentation of surgical instruments. The project uses synthetic data and a domain adaptation approach inspired by Google's **Noisy Student** self-training method.
 
-## Weights
-- **Final Model Weights**: [Download from Google Drive](#) (replace with actual URL)
+## Repository Usage:
+First, clone and go to the repository:
+```bash
+git clone repo
+cd repo
+```
+Then, you can try out the synthetic data generator, and model predictions over images or videos.
 
-## Files Overview
+## Generate Synthetic Data
+To create a Conda environment and install dependencies for synthetic data generation, run the following:
+
+```bash 
+conda create --name synth python=3.8 pip
+conda activate synth
+pip install -r requirements_synth.txt
+```
+Then, go to the `Synthetic` folder, and git clone BlenderProc:
+```bash
+cd Synthetic
+git clone https://github.com/DLR-RM/BlenderProc
+cd BlenderProc
+pip install -e
+cd ..
+```
+(You can also use pip to install it, on my VM it didn't work)
+Now, you are ready to run the synthetic data generator. You can change the configurations. 
+``python synthetic_data_generator.y
+
+### 1. `synthetic_data_generator.py`
+   - **Purpose**: Generate synthetic tool data as the report outlines.
+   - **Configuration**: Controlled by `configurations.py`.
+   - **Requirements**: 
+     - Use a conda environment with dependencies from `requirements_synth.py`.
+     - Place in the same folder as BlenderProc. (I used BlenderProc git clone)
+   - **Usage**: Run to create synthetic data for training.
+### 2. 'main.py', 'configuration.py':
+   - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder. 
+
+
 ## Run Model Predictions:
-To create a Conda environment and install dependencies, run:
+To create a Conda environment and install dependencies for model predictions, run the following:
 
 ```bash 
 conda create --name visualize python=3.8 pip
@@ -29,17 +64,5 @@ pip install -r requirements_yolo.txt
      - Use a conda environment with dependencies from `requirements_yolo.py`.
    - **Usage**: Provide the video path to make predictions.
 
-## Generate Synthetic Data
-
-### 3. `synthetic_data_generator.py`
-   - **Purpose**: Generate synthetic tool data as the report outlines.
-   - **Configuration**: Controlled by `configurations.py`.
-   - **Requirements**: 
-     - Use a conda environment with dependencies from `requirements_synth.py`.
-     - Place in the same folder as BlenderProc. (I used BlenderProc git clone)
-   - **Usage**: Run to create synthetic data for training.
-### 4. 'main.py', 'configuration.py':
-   - **Purpose**: Files used by `synthetic_data_generator.py`, place in the same folder. 
-
-## Final Report
-- **Report**: Detailed explanation of the project, including methodology and results. [Link to report](#) (replace with actual URL).
+## Weights
+- **Final Model Weights**: [Download from Google Drive](#) (replace with actual URL)
