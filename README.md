@@ -28,7 +28,7 @@ cd ..
 ```
 (You can also use pip to install it, on my VM it didn't work)
 Now, you are ready to run the synthetic data generator. You can change the configurations. 
-``python synthetic_data_generator.y
+``bash python synthetic_data_generator.y
 
 ### 1. `synthetic_data_generator.py`
    - **Purpose**: Generate synthetic tool data as the report outlines.
