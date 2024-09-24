@@ -58,7 +58,7 @@ Now, you are ready to run model predictions.
    - **Purpose**: Run model predictions on a single image.
    - **Requirements**: 
      - Use a conda environment with dependencies from `requirements_yolo.py`.
-   - **Usage**: Provide the image path to make predictions.
+   - **Usage**: Provide the image and model paths to make predictions.
 ```bash
 python predict.py --image_path [/path/to/image.png] --model_path [/path/to/weights.pt] --confidence [conf (float)]
 ```
@@ -66,9 +66,8 @@ python predict.py --image_path [/path/to/image.png] --model_path [/path/to/weigh
 ### 2. `video.py`
    - **Purpose**: Run model predictions on a video.
    - **Requirements**: 
-     - Place model weights in the same folder as `video.py`.
      - Use a conda environment with dependencies from `requirements_yolo.py`.
-   - **Usage**: Provide the video path to make predictions.
+   - **Usage**: Provide the video and model paths to make predictions.
 ```bash
 python video.py --video_path [/path/to/video.mp4] --model_path [/path/to/weights.pt] --confidence [conf (float)]
 ```
