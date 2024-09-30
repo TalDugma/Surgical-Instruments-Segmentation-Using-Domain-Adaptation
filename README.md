@@ -68,4 +68,4 @@ python video.py --video_path [/path/to/video.mp4] --model_path [/path/to/weights
 ```
 
 ## Weights
-- **Final Model Weights**: [Download from Google Drive](https://drive.google.com/file/d/1cGLkexKvE7kHqARjI35-3t1RcNrdg0Dj/view?usp=sharing) (replace with actual URL)
+- **Final Model Weights**: [Download from Google Drive](https://drive.google.com/file/d/1cGLkexKvE7kHqARjI35-3t1RcNrdg0Dj/view?usp=sharing)
